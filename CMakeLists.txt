@@ -7,4 +7,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_definitions(-DDEBUG)
 
-add_executable(life main.cpp)
+add_executable(life main.cpp bitarray.h bitarray.cpp)
